@@ -1,0 +1,259 @@
+#header-section{
+    padding-top: 50px;
+    background-color: #F1FFF5;
+    width: 100%;
+    height: 100%;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1D3557;
+}
+.active{
+    color: #C25251;
+}
+.nav-link:hover{
+    color: #C25251;
+}
+.navbar-nav .nav-item{
+    padding: 0 20px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.header-content{
+    padding: 50px 0;
+}
+.h-cont{
+   padding-top: 150px;
+}
+.h-cont h1{
+   font-size: 90px;
+   color: #1D3557;
+   font-weight: 700;
+   margin-bottom: 55px;
+ }
+
+.h-img img{
+   width: 100%;
+   height: 100%;
+}
+.hero-btn {
+    text-decoration: none;
+    color: #fff;
+    background:#c25251;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+.hero-btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #1D3557;
+}
+
+/*-----Feature section----- */
+.features-section{
+    padding-top: 100px;
+    text-align: center;
+}
+.featur-cont{
+    padding-bottom:  50px;
+}
+
+.featur-cont img {
+    padding:17px;
+    border-radius: 50%;
+    background-color: #e1f3f4;
+}
+.featur-cont h4{
+    color: #405471;
+    padding-top: 30px;
+}
+.featur-cont p{
+    color: #555;
+}
+
+/* ---About section-- */
+.about-section{
+    padding-top: 100px;
+}
+.about-cont{
+    margin-bottom: 5%;
+}
+.about-cont img{
+     border-radius: 50%;
+}
+.page-title{
+    color: #555;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    color: #1D3557;
+}
+.agency{
+     color: #c25251;
+}
+.about-cont h4{
+    font-size: 18px;
+    padding: 20px 0;
+    color: #457b9d;
+}
+.about-cont p{
+    padding-bottom: 30px;
+    color: #555;
+}
+
+/* ---Services Section---- */
+.services-section{
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 5%;
+}
+.services-section::before {
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 86.5%;
+    background-color: #ebf7f8;
+    bottom: 0;
+    left: 5%;
+    top: 35%;
+    border-radius: 35px;
+    border: 15px solid rgba(255,255,255,0);
+    z-index: -1;
+}
+
+.title-cont{
+    margin-bottom: 5%;
+}
+.services-cont{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 10px 10px 30px #999;
+}
+.services-cont h4{
+    padding: 15px 0;
+    color: #457b9d;
+}
+.ser-padd{
+    margin-top: 50px;
+}
+.clint-section{
+    padding-top: 150px;
+    margin-bottom: 5%;
+}
+.q-comment{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 9px 30px #f0f0f0;
+}
+.clint-review q{
+    font-size: 22px;
+    color: #457b9d;
+    font-style: italic;
+    font-weight: 600;
+}
+.clint-review h6{
+    color: teal;
+    font-size: 14px;
+    font-weight: 700;
+}
+.clint-img {
+    margin-left: 50px;
+}
+.clint-img img{
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* ---Count-section-- */
+.count-section{
+    padding-top: 100px;
+    margin-bottom: 5%;
+}
+.count-title{
+    text-align: center;
+}
+.count-title h5{
+    font-size: 14px;
+}
+.count-title h1{
+    font-size: 40px;
+}
+.count-cont{
+    box-shadow: 0px 8px 46px 0px rgb(29 53 87 / 8%);
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #f0f0f0;
+    margin: 10px;
+}
+.count-cont h3{
+    font-size: 34px;
+    color: #C25251;
+    font-weight: 700;
+}
+.count-cont p{
+    color: #457b9d;
+}
+
+/* call to action ---- */
+.call-to-action{
+    padding-top: 100px;
+    margin-bottom: 5%;
+}
+.cta{
+    position: relative;
+     padding: 50px 0;
+}
+.cta::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+     height: 100%;
+    background-color: #ebf7f8;
+    bottom: 0;
+    top: 0;
+    border-radius: 35px;
+    border: 15px solid rgba(255,255,255,0);
+    z-index: -1;
+}
+.cta-cont{
+    padding-left: 5%;
+}
+.cta-cont h5{
+  color: #457b9d;
+  padding-bottom: 30px;
+}
+.cta-cont img{
+    border-radius: 10px;
+}
+/* ---------------- */
+.team-section{
+    margin-bottom: 5%;
+    padding-top: 100px;
+}
+.team-title{
+    margin-bottom: 40px;
+}
+/* --------- */
+.brand-section{
+    padding: 50px 0;
+    margin-bottom: 5%;
+}
+.brand-cont{
+    transition: .5s;
+    cursor: pointer;
+}
+.brand-cont:hover{
+    padding-left: 10px;
+    padding-top:  10px;
+}
